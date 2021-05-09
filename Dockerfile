@@ -27,5 +27,6 @@ RUN DEBIAN_FRONTEND=noninteractive\
     && apt-get install clang -y\
     && apt-get install gdb -y\
     && apt-get install lldb -y\
+    && apt-get install cmake -y\
     && echo 'root:toor' | chpasswd
 
